@@ -23,6 +23,7 @@ be dual licensed as above, without any additional terms or conditions.
 
 [^1]: There is no typo. Bitcode, [as the maintainers admit](https://llvm.org/docs/BitCodeFormat.html#:~:text=anachronistically%20known%20as%20bytecode), sometimes indeed is anachronistically called bytecode.
 [^Source]: https://en.wikipedia.org/wiki/LLVM
+
 [`LLVM`]: https://en.wikipedia.org/wiki/LLVM
 [`LLVM-CBE`]: https://github.com/JuliaComputingOSS/llvm-cbe
 [`rustc`]: https://doc.rust-lang.org/rustc/what-is-rustc.html

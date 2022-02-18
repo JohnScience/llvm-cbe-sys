@@ -1,6 +1,6 @@
 # Rust bindings for [`LLVM-CBE`]
 
-[`LLVM-CBE`] is a C-backend for [`LLVM`], i.e. a tool that turns [LLVM bitcode][^1] into C.
+[`LLVM-CBE`] is a C-backend for [`LLVM`], i.e. a tool that turns [LLVM bitcode] [^1] into C.
 
 # Motivation
 

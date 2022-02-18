@@ -1,0 +1,3 @@
+[submodule "llvm-cbe"]
+	path = llvm-cbe
+	url = https://github.com/JuliaComputingOSS/llvm-cbe

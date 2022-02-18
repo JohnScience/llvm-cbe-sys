@@ -1,4 +1,4 @@
-[tasks.llvm-cbe]
+[tasks.llvm-cbe.linux]
 install_script = '''
 mkdir -p llvm-cbe/build
 cd llvm-cbe/build
@@ -6,4 +6,13 @@ cmake .. -DUSE_SYSTEM_LLVM=ON -DCMAKE_BUILD_TYPE=Release
 make -j4
 cd -
 ln -sf llvm-cbe/build/tools/llvm-cbe/llvm-cbe ./llvm-cbe-bin
+'''
+
+[tasks.llvm-cbe.windows]
+install_script = '''
+mkdir llvm-cbe\build
+cd llvm-cbe\build
+cmake .. -DUSE_SYSTEM_LLVM=ON -DCMAKE_BUILD_TYPE=Release
+make -j4
+cd ..\..
 '''

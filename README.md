@@ -1,6 +1,6 @@
-# Rust bindings for [`LLVM-CBE`]
+# Rust bindings for [`LLVM-CBE`] (HALTED)
 
-[`LLVM-CBE`] is a C-backend for [`LLVM`], i.e. a tool that turns [LLVM bitcode] [^1] into C.
+[`LLVM-CBE`] is a C-backend for [`LLVM`], i.e. a tool that turns [LLVM bitcode] [^1] into C. It requires to be built near LLVM, which was found to be so heavy dependency that shipping it as Cargo crate would be absurd.
 
 # Motivation
 
